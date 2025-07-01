@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px auto ;
+    grid-template-rows: 100px auto;
+    gap: 10px green;
+}
+
+@media (max-width:400px) {
+    .grid-container{
+    display: grid;
+    grid-template-columns: 50px 150px 50px 100px;
+    grid-template-rows: 80px 80px  ;
+    gap: 10px green;
+}
+}
+
+.grid-item{
+    height: auto;
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color:pink;
+}
+
