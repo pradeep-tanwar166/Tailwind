@@ -1,16 +1,22 @@
 ## How to setup tailwind css
+ first go to tailwind website and change it's verison to 3.4.17 and then do 2 step as same as they recommend in the tailwind cli 
+
  1. Run the following commands 
 
  npm install -d tailwindcss 
  npx tailwindcss init 
 
+ After this if your tailwind.conf.jsfile is install then 
+
  step 2. update tailwind.conf.jsfile to include this line :
 
- ``` 
+ ``` do this step ---
+ 
  content:["./*.html"]
 
- if your code is inside the src then write this 
-content: ["./src/**/*.html"]
+
+ if your code file is inside the src then write this 
+content: ["./src/**/*.html"] means the step 3 then do this 
 
  step 3: create src/input.css to include : 
 @tailwind base;
